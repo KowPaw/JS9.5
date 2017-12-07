@@ -2,6 +2,6 @@
 
 var b = document.getElementsByClassName('button');
 
-for (i = 0; i < b.length ; i++) {
+for ( var i = 0; i < b.length ; i++) {
 	alert(b[i].innerText);
 }
